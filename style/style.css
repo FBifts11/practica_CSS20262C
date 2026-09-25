@@ -1,0 +1,257 @@
+h1 {
+}
+
+#titulo {
+}
+
+p {
+}
+
+p.texto {
+}
+
+p.otraClase {
+}
+
+div p {
+}
+
+div h2 {
+}
+
+div h2,
+div h3 {
+}
+
+/*Propiedad COLOR*/
+
+.color {
+}
+
+/*Propiedad BORDER*/
+
+.border {
+}
+
+.medidasAbsolutas,
+.medidasRelativas_1,
+.medidasRelativas_2 {
+}
+
+.medidasAbsolutas {
+}
+
+.medidasRelativas_1 {
+}
+
+.medidasRelativas_2 {
+}
+
+.medidasRelativas_3 {
+}
+
+/*Propiedad BACKGROUND*/
+#fondo {
+}
+
+/*Propiedad MARGIN*/
+.margen {
+}
+
+/* Box Model */
+.contenedor-boxModel {
+}
+
+.span1-boxModel,
+.span2-boxModel {
+}
+
+.span1-boxModel {
+}
+
+.span2-boxModel {
+}
+
+/*Propiedades de texto*/
+
+.textProp_1 {
+}
+
+.textProp_2 {
+}
+
+/*Propiedades de links*/
+
+#anchor {
+}
+
+a:link {
+}
+
+a:visited {
+}
+
+a:hover {
+}
+
+a:active {
+}
+
+/*Propiedades de las tablas*/
+table {
+}
+
+th,
+td {
+}
+
+th {
+}
+
+tr:hover {
+}
+
+tr:nth-child(even) {
+}
+
+tr:nth-child(4) {
+}
+
+tr td:nth-child(2) {
+}
+
+
+/*Propiedad Display*/
+.div_1 {
+}
+
+.div_2 {
+}
+
+.span_1 {
+}
+
+.span_2 {
+}
+
+.inline {
+}
+
+.block {
+}
+
+.span_3 {
+}
+
+.inline-block {
+}
+
+/*Propiedad de Posicion*/
+
+#position {
+}
+
+.float {
+}
+
+.img-left {
+}
+
+.left {
+}
+
+.right {
+}
+
+#p-float {
+}
+
+#p-float::first-letter {
+}
+
+/*Propiedad Center*/
+
+.center {
+}
+
+#p-centrado::before {
+}
+
+#p-centrado::after {
+}
+
+/*Propiedades de listas*/
+
+nav {
+}
+
+#h3Navbar {
+}
+
+ul li {
+}
+
+/*Animaciones*/
+#animacion {
+}
+
+@keyframes redondeo {
+}
+
+/* Transiciones */
+
+#suelo {
+}
+
+#macana {
+}
+
+#suelo:hover #macana {
+}
+
+/*Grid*/
+
+#contenedor-grid {
+}
+
+#header {
+}
+
+#menu {
+}
+
+#submenu {
+}
+
+#main {
+}
+
+#image {
+}
+
+#extra {
+}
+
+#banner {
+}
+
+img {
+}
+
+
+#btnVolver {
+}
+
+#btnVolver:hover {
+}
+
+#btnVolver:active {
+}
+
+#btnVolver a {
+}
+
+#aBtn:active {
+}
+
+/* Responsive */

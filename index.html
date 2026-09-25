@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!--<style> Estilo interno
+    body {
+        color: blueviolet;
+    }
+</style> -->
+
+    <!--Esta forma tercero -->
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./img/favicon.ico">
+</head>
+
+<!--<body style="color: blue;"> Estilo en linea -->
+
+<body>
+
+    <h1 id="titulo-ppal">Propiedades CSS</h1>
+
+
+    <h2>Generales</h2>
+
+    Esto es un texto
+
+    <h1 id="titulo">Esto es un titulo h1</h1>
+    <p class="texto">Primer parrafo</p>
+    <p class="texto otraClase">Segundo parrafo</p>
+    <p class="otraClase">Tercer parrafo</p>
+    <div>
+        <p>Cuarto parrafo (dentro del div)</p>
+        <h2>Esto es un subtitulo h2 (dentro del div)</h2>
+        <h3>Esto es un subtitulo h3 (dentro del div)</h3>
+    </div>
+    <hr>
+
+    <h2>Propiedades de Color</h2>
+    <h2 class="color">Propiedades del color en este h2</h2>
+    <hr>
+
+
+    <h2>Propiedades de Borde</h2>
+
+    <h2 class="border">Propiedades del borde en este h2</h2>
+
+    <hr>
+
+
+    <h2>Propiedades de Medidas</h2>
+
+    <h2 class="medidasAbsolutas"> Medidas absolutas</h2>
+    <h2 class="medidasRelativas_1">Medidas relativas EM</h2>
+    <h2 class="medidasRelativas_2">Medidas relativas EM con fuente mas pequeña</h2>
+    <h2 class="medidasRelativas_3">Medidas relativas REM</h2>
+    <hr>
+
+
+    <h2>Propiedades de Background</h2>
+
+    <article id="fondo">Propiedad de Background</article>
+    <hr>
+
+
+    <h2>Propiedades de Margen</h2>
+
+    <div class="margen">
+        Propiedad margin
+    </div>
+    
+    <h3>Box Model</h3>
+    <div class="contenedor-boxModel">
+        <span class="span1-boxModel">Content-box</span>
+        <span class="span2-boxModel">Border-box</span>
+    </div>
+    <hr>
+
+
+    <h2>Propiedades de texto</h2>
+
+    <p class="textProp_1">Parrafo para probar las pripiedades de texto, en este caso necesitamos escribir mas palabras
+    </p>
+    <p class="textProp_2">Parrafo para probar las pripiedades de texto, en este caso necesitamos escribir mas palabras
+    </p>
+    <hr>
+
+
+    <h2>Propiedades de Link</h2>
+
+    <a href="https://www.google.com.ar" target="_blank" id="anchor">Ir a Google</a><br>
+    <hr>
+
+
+    <h2>Propiedades de tablas</h2>
+
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Documento</th>
+        </tr>
+        <tr>
+            <td>Nombre 1</td>
+            <td>Apellido 1</td>
+            <td>Documento 1</td>
+        </tr>
+        <tr>
+            <td>Nombre 2</td>
+            <td>Apellido 2</td>
+            <td>Documento 2</td>
+        </tr>
+        <tr>
+            <td>Nombre 3</td>
+            <td>Apellido 3</td>
+            <td>Documento 3</td>
+        </tr>
+    </table>
+    <hr>
+
+
+    <h2>Propiedades de Display</h2>
+
+    <div class="div_1">Este es el div_1 sin display</div>
+    <div class="div_2">Este es el div_2 sin display</div>
+    <span class="span_1">Este es el span_1 sin display</span>
+    <span class="span_2">Este es el span_2 sin display</span>
+    <br><br><br><br>
+    <div class="div_1 inline">Este es el div_1 con display</div>
+    <div class="div_2 inline">Este es el div_2 con display</div>
+    <span class="span_1 block">Este es el span_1 con display</span>
+    <span class="span_2 block">Este es el span_2 con display</span>
+
+    <span class="span_3">Este es el span_3</span>
+
+    <div class="inline-block div_3">Este es el div_3 con inline-block</div>
+    <div class="inline-block div_4">Este es el div_4 con inline-block</div>
+    <hr>
+
+
+    <h2>Propiedad de Posicion</h2>
+
+    <article id="position"> Propiedades de posicion en este article</article>
+    <hr>
+
+
+    <h2>Propiedad Float</h2>
+
+    <div class="float">
+        <div class="left">
+            <img src="./img/logo_css.png" alt="Imagen a la izquierda" class="img-left">
+        </div>
+        <div class="right">
+            <p id="p-float">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod labore explicabo ex impedit
+                magnam totam?</p>
+        </div>
+    </div>
+    <hr>
+
+
+    <h2>Centrar elementos</h2>
+
+    <section class="center">
+        <p id="p-centrado">Parrafo centrado</p>
+    </section>
+    <hr>
+
+    <div class="center">Soy un div centrado</div>
+    <hr>
+
+    <h2>Propiedades de las Listas</h2>
+
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <hr>
+
+
+    <h2>Animaciones</h2>
+
+    <div id="animacion"></div>
+    <hr>
+
+
+    <h2>Propiedad transition</h2>
+
+    <div id="suelo">
+        <div id="macana"></div>
+    </div>
+
+
+    <h2>Grid</h2>
+
+    <p>Grid lo podemos utilizar para armar una estructura bidimensional, es decir que podemos agrupar los elementos en
+        filas y columnas, a diferencia de flex que solo nos permite agrupar elementos en forma unidimensional</p>
+
+    <div id="contenedor-grid">
+
+        <div id="header">
+            <h2>Header</h2>
+        </div>
+        <div id="menu">
+            <h2>Menu</h2>
+        </div>
+        <div id="submenu">
+            <h2>Submenu</h2>
+        </div>
+        <div id="main">
+            <h2>Main</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero inventore provident minus placeat fuga
+                <!-- lorem1000 -->
+                perferendis rerum ipsa voluptatibus explicabo accusantium, dolore similique exercitationem
+                necessitatibus enim, quo architecto aliquam repellat aperiam soluta? Omnis voluptatum nobis sapiente
+                beatae minima? Enim repudiandae quia asperiores in. Non rem officiis totam dignissimos molestiae
+                similique rerum repellendus corporis vero, excepturi provident, minima quisquam quis laudantium aliquam?
+                At vel ut animi. Cupiditate quisquam ipsum, corporis incidunt vel necessitatibus perspiciatis molestiae
+                quae voluptate debitis molestias doloribus? Adipisci quisquam ullam, omnis debitis est suscipit
+                exercitationem repudiandae dignissimos quod, aliquam in numquam quasi accusantium amet, cumque assumenda
+                labore aspernatur corporis! Quisquam delectus culpa molestiae atque illo tenetur perspiciatis assumenda,
+                deserunt fugit accusantium dignissimos hic voluptatum laborum cum! Provident fugit atque molestias quae
+                quibusdam dolorem reprehenderit doloribus inventore quia voluptate. Voluptatem cupiditate, laboriosam
+                dolorem quis sed praesentium dolore facere itaque totam consectetur, odit illum ratione quibusdam et
+                porro amet! Voluptatem possimus quo voluptas sint necessitatibus obcaecati sit sequi nobis, accusamus
+                ratione voluptatibus illo consequatur accusantium amet quam totam rerum aut praesentium numquam, facere,
+                dolores perferendis eius quas adipisci! Beatae, ducimus labore voluptatum veritatis a iusto expedita
+                totam illo provident itaque? Iusto impedit, nisi quae rerum aliquam a quas ab asperiores obcaecati? At
+                dolorum eos, dolore mollitia cupiditate officiis maxime vero nihil tempore inventore ratione aspernatur
+                accusamus perferendis qui, autem optio nam deleniti! Magnam, architecto quo esse temporibus minus in
+                provident. Blanditiis autem molestiae veritatis corrupti modi, maxime iure laudantium quisquam sapiente
+                ratione minus vitae deleniti itaque corporis, soluta eos ipsa? Eligendi, dicta! Error cum nam unde dicta
+                soluta dignissimos dolorum vero veritatis quis ullam maxime, illo tempore eveniet hic, aliquam
+                cupiditate laboriosam possimus doloremque, provident nisi. Commodi earum consequatur alias quibusdam
+                magnam. Modi cumque deleniti obcaecati consectetur? Deserunt, repellendus ad consequatur iure quasi
+                ipsum consequuntur hic eligendi labore eaque cumque voluptatum fugit numquam architecto rerum ut, nemo
+                quas maxime? Fuga similique dolores officia laboriosam, rerum vel, optio corporis magnam consequuntur
+                odit nemo minus eligendi sapiente alias quod sint numquam. Amet, dolor! Explicabo iusto est quas porro.
+                Quas autem velit, architecto repudiandae provident deleniti commodi cumque quam doloremque iure, illum
+                quidem modi perspiciatis quibusdam recusandae asperiores eaque repellat itaque? Tempore temporibus illum
+                rem. Porro omnis totam cumque provident, maxime doloremque, expedita quod, at laborum suscipit libero
+                beatae? Accusamus ab exercitationem error non nemo reprehenderit vitae excepturi corrupti officia, eaque
+                sequi recusandae sed repellendus cum quidem voluptatem incidunt alias repellat! Consectetur accusantium
+                blanditiis tempore iste similique at laborum fugiat ea error odit atque rerum enim quaerat natus labore
+                dolorem deleniti illo maxime optio sint reiciendis, eius aspernatur ipsa! Quidem quia laboriosam ipsum
+                quo. Vitae reiciendis assumenda cum veniam deleniti repellat dolorem quibusdam mollitia optio, sed,
+                doloribus excepturi. Voluptatibus assumenda tempore debitis hic fuga veniam magni, similique quos, eius
+                exercitationem dignissimos, qui provident modi! Quaerat sequi doloribus ut iste excepturi quisquam
+                cupiditate fuga quo officia, delectus, laborum minima autem possimus ipsa blanditiis explicabo vitae
+                illum, sapiente minus impedit magni ducimus. Dolorum deserunt, amet, animi esse quas, explicabo ad
+                dolores quod in inventore repellat reprehenderit labore! Ea consequuntur magni temporibus rem deleniti
+                facere neque perferendis dolore illum, repellat illo aspernatur, quaerat officia! Laboriosam laborum
+                labore et, est impedit distinctio expedita! Autem reiciendis impedit reprehenderit cum id error
+                assumenda hic eum laborum harum porro temporibus et quo, modi nesciunt ex, ab quod nobis nisi nulla quam
+                ducimus aliquid vel molestias. Obcaecati asperiores maxime rerum delectus iure fugit alias temporibus,
+                quod eligendi quasi nisi corporis quos. Consectetur error cupiditate facilis voluptas quam soluta velit
+                similique et cumque, excepturi cum ut expedita at debitis! Tenetur esse ea, repellat quibusdam nobis
+                porro earum accusantium eveniet quod minus, vitae est odit deserunt iusto nisi aliquid? Non aliquam,
+                quidem nihil dicta incidunt earum ea. Laborum, ducimus repellat itaque omnis corporis eveniet suscipit
+                alias saepe harum, corrupti vitae sequi nulla impedit enim voluptatum a illo adipisci! Quasi repellat
+                fuga ullam? Explicabo deleniti tempora perspiciatis eum dolorum ab quod inventore error, velit vitae,
+                molestias qui, magni quis voluptatem accusamus aliquam nesciunt amet quibusdam architecto suscipit
+                laudantium recusandae. Rem tempore obcaecati similique exercitationem assumenda cum eum officiis
+                mollitia rerum perferendis vitae voluptates ratione quam totam quidem nihil dolores, dolor doloremque
+                facilis dolorum! Vel, laudantium ipsam. Assumenda nemo incidunt quod vero quisquam perferendis
+                reprehenderit ad, nobis optio et magni harum ducimus cum beatae! Ab officiis qui facilis, esse
+                excepturi, adipisci aliquid quae culpa porro maxime, cupiditate asperiores beatae nemo velit animi
+                temporibus ullam dolorem blanditiis ipsa odit. Labore saepe repellendus doloremque soluta aperiam
+                repudiandae pariatur rerum. Officia vitae natus veniam reiciendis sint cum nostrum, in molestiae
+                obcaecati assumenda doloremque inventore, ipsum pariatur qui laudantium aliquam enim nobis. Quo aliquid
+                exercitationem officiis iusto et doloribus distinctio, molestiae repellendus libero. Nemo aut eos quas
+                quos quae quod ea officiis. Recusandae corrupti, dolorum laborum delectus ut consequatur magnam maxime
+                minima rem, excepturi deleniti asperiores cum dolore facilis non. Provident explicabo facere error odit
+                doloribus fugit dolores ut laudantium, saepe veniam, assumenda rerum. Ad earum tempore dolores excepturi
+                distinctio dolor, vel explicabo autem pariatur quod minima quisquam blanditiis mollitia sunt corporis
+                repellendus rerum nobis unde sequi impedit beatae laborum est? Laborum quaerat voluptatibus neque,
+                itaque veritatis unde distinctio. Deserunt, voluptas rerum! Culpa magnam sed voluptatibus dignissimos,
+                doloribus rerum architecto eaque consequuntur, expedita assumenda dolores corporis suscipit, veniam
+                totam ab ratione odit illum ea voluptate. Numquam consectetur sequi officiis. Ullam aperiam quae
+                adipisci veniam velit, officiis consequatur, maiores corporis neque fugit voluptas omnis quis vel
+                necessitatibus corrupti placeat aut consequuntur dignissimos illo sint inventore. Molestias cumque cum
+                totam maiores deserunt porro veniam ea, impedit, inventore quibusdam provident earum magni nihil
+                adipisci est consequuntur iusto modi vel sunt quam, similique alias? Est fugit quisquam incidunt vel
+                odit minima architecto atque autem minus ea tempore sapiente aliquam iusto maiores exercitationem fugiat
+                tenetur excepturi aut, sequi magni. Asperiores nisi nulla consequuntur neque voluptas ex eaque eveniet
+                accusamus nostrum maxime aperiam ab cum quod repellat vero atque repellendus quas reiciendis natus
+                deleniti, esse beatae sunt! Nam vel aspernatur quae voluptatem, incidunt possimus repellendus laborum
+                quis minima eaque commodi, quo qui. Nesciunt expedita natus sint.</p>
+        </div>
+        <div id="image">
+            <img src="img/logo_html.png" alt="Logo HTML">
+        </div>
+        <div id="extra">
+            <h2>Extra</h2>
+        </div>
+        <div id="banner">
+            <h2>Banner</h2>
+        </div>
+    </div>
+
+    <button id="btnVolver">
+        <a href="#titulo-ppal" id="aBtn">Ir al cielo</a>
+    </button>
+
+</body>
+
+</html>
