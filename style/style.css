@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap');
+
 h1 {
     color: red;
 }
@@ -81,10 +83,10 @@ div h3 {
 
 /*Propiedad BACKGROUND*/
 #fondo {
-    background-color: rgba(255,0,0,0.5);
+    background-color: rgba(255, 0, 0, 0.5);
 
     height: 400px;
-/*     background-image: url(../img/logo_vsc.png);
+    /*     background-image: url(../img/logo_vsc.png);
     background-size: 200px 200px;
     background-repeat:no-repeat;
     background-position: center; */
@@ -101,7 +103,7 @@ div h3 {
     height: 100px;
     width: 15px;
     white-space: nowrap;
-    overflow:scroll;
+    overflow: scroll;
 }
 
 /* Box Model */
@@ -133,79 +135,179 @@ div h3 {
 
 /*Propiedades de texto*/
 
-.textProp_1 {}
+.textProp_1 {
+    text-align: center;
+}
 
-.textProp_2 {}
+.textProp_2 {
+    color: red;
+    text-decoration: underline;
+    text-align: justify;
+    text-shadow: 15px 10px 5px black;
+    font-family: "Edu QLD Hand", cursive;
+}
 
 /*Propiedades de links*/
 
-#anchor {}
+#anchor {
+    text-decoration: none;
+}
 
-a:link {}
+a:link {
+    color: brown;
+}
 
-a:visited {}
+a:visited {
+    color: gray;
+}
 
-a:hover {}
+a:hover {
+    color: blue;
+}
 
-a:active {}
+a:active {
+    color: red;
+    font-size: 30px;
+}
 
 /*Propiedades de las tablas*/
-table {}
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
 
 th,
-td {}
+td {
+    border: solid 1px #555;
+    padding: 5px;
+}
 
-th {}
+th {
+    background-color: brown;
+    color: white;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-tr:hover {}
+tr:hover {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
 
-tr:nth-child(even) {}
+tr:nth-child(even) {
+    background-color: blueviolet;
+}
 
-tr:nth-child(4) {}
+tr:nth-child(4) {
+    background-color: red;
+}
 
-tr td:nth-child(2) {}
+tr td:nth-child(2) {
+    background-color: yellow;
+}
 
 
 /*Propiedad Display*/
-.div_1 {}
+.div_1 {
+    background-color: chocolate;
+}
 
-.div_2 {}
+.div_2 {
+    background-color: yellow;
+}
 
-.span_1 {}
+.span_1 {
+    background-color: aqua;
+}
 
-.span_2 {}
+.span_2 {
+    background-color: blueviolet;
+}
 
-.inline {}
+.inline {
+    display: inline;
+}
 
-.block {}
+.block {
+    display: block;
+}
 
-.span_3 {}
+.span_3 {
+    display: block;
+    background-color: red;
+    width: 600px;
+}
 
-.inline-block {}
+.inline-block {
+    display: inline-block;
+    background-color: #bbb;
+    height: 30px;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 25px;
+    text-align: center;
+
+}
 
 /*Propiedad de Posicion*/
 
-#position {}
+#position {
+    background-color: red;
+    color: white;
+    width: 400px;
+    text-align: center;
+    position: sticky;
 
-.float {}
+    left: 50px;
+    top: 45px
+}
 
-.img-left {}
+.float {
+    height: 300px;
+}
 
-.left {}
+.img-left {
+    height: 250px;
+}
 
-.right {}
+.left {
+    float: left;
+}
 
-#p-float {}
+.right {
+    float: right;
+    width: 200px;
+    text-align: justify;
+}
 
-#p-float::first-letter {}
+#p-float {
+    color: coral;
+}
+
+#p-float::first-letter {
+    color: red;
+    font-size: 3rem;
+}
 
 /*Propiedad Center*/
 
-.center {}
+.center {
+    width: 400px;
+    margin: 0px auto;
+    background-color: tomato;
+    text-align: center;
+    padding: 10px 0px;
+}
 
-#p-centrado::before {}
+#p-centrado::before {
+    content: "Hola                ";
+}
 
-#p-centrado::after {}
+#p-centrado::after {
+    content: "       chau";
+}
 
 /*Propiedades de listas*/
 
@@ -216,35 +318,115 @@ nav {}
 ul li {}
 
 /*Animaciones*/
-#animacion {}
+#animacion {
+    width: 50px;
+    height: 50px;
+    background-color: forestgreen;
+    margin: 1% auto;
+    animation: redondeo 4s 3s infinite
+}
 
-@keyframes redondeo {}
+@keyframes redondeo {
+    0% {
+        border-radius: 0 0 0 0;
+        background-color: red;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        border-radius: 50% 0 0 0;
+        background-color: orange;
+        transform: rotate(45deg);
+    }
+
+    50% {
+        border-radius: 50% 50% 0 0;
+        background-color: aqua;
+        transform: rotate(90deg);
+    }
+
+    75% {
+        border-radius: 50% 50% 50% 0;
+        background-color: yellow;
+        transform: rotate(135deg);
+    }
+
+    100% {
+        border-radius: 50% 50% 50% 50%;
+        background-color: hotpink;
+        transform: rotate(180deg);
+    }
+}
 
 /* Transiciones */
 
-#suelo {}
+#suelo {
+    border-bottom: 30px chocolate solid;
+}
 
-#macana {}
+#macana {
+    /* background-color: #666; */
+    height: 6rem;
+    width: 10rem;
+    margin-top: 2rem;
+    background-image: url(../img/macana.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
-#suelo:hover #macana {}
+#suelo:hover #macana {
+    margin-left: 100%;
+    transition: ease 4s;
+}
 
 /*Grid*/
 
-#contenedor-grid {}
+#contenedor-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 4rem 25% 1fr 1fr 8rem;
+    grid-template-areas:
+        "header menu menu menu"
+        "submenu submenu submenu submenu"
+        "main main main image"
+        "main main main extra"
+        "banner banner banner banner";
+}
 
-#header {}
+#header {
+    background-color: black;
+    grid-area: header;
+}
 
-#menu {}
+#menu {
+    background-color: crimson;
+    grid-area: menu;
+}
 
-#submenu {}
+#submenu {
+    background-color: rgb(1,141,200);
+    grid-area: submenu;
+}
 
-#main {}
+#main {
+    background-color: rgb(2,50,90);
+    grid-area: main;
+}
 
-#image {}
+#image {
+    background-color: rgb(153,200,224);
+    grid-area: image;
+}
 
-#extra {}
+#extra {
+    background-color: darkturquoise;
+    grid-area: extra;
+}
 
-#banner {}
+#banner {
+    background-color: yellow;
+    grid-area: banner;
+}
 
 img {}
 
@@ -260,3 +442,31 @@ img {}
 #aBtn:active {}
 
 /* Responsive */
+
+@media screen and (max-width: 750px) {
+    #contenedor-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "header"
+        "menu"
+        "submenu"
+        "main"
+        "image"
+        "extra"
+        "banner";
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1023px) {
+    #contenedor-grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 4em repeat(2, 3fr) repeat(2, 2fr);
+        grid-template-areas:
+        "header header header header"
+        "submenu submenu submenu submenu"
+        "main main main main"
+        "menu banner banner banner"
+        "menu extra extra image";
+    }
+}
